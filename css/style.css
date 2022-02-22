@@ -6,11 +6,45 @@ hr{
   border-top: 10px lightgrey dotted;
   width: 10%;
 }
-.form-container {
+.form-container{
   height: 100%;
   padding: 0;
   margin: 0;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+nav{
+  position: fixed;
+  top: 0px;
+  display:flex;
+  align-items: center;
+  justify-self: center;
+  justify-content: space-around;
+  background-color: #f5cac3;
+  height: 40px;
+  width: 100%;
+}
+
+.current{
+  background-color:#F28482";
+}
+
+.name{
+  width: 50%;
+}
+
+#nav a:hover{
+  color: #84A59D;
+  transition: 500ms;
+  font-size:30px;
+}
+
+span {
+  display: flex;
+  justify-content: space-evenly;
+}
+img {
+  height: 500px;
 }
